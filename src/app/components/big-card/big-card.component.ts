@@ -12,7 +12,9 @@ export class BigCardComponent implements OnInit {
   cardTitle: String = ""
   @Input()
   cardDescription: String = ""
-
+  @Input()
+  Id: String = "0"
+  
   constructor() {}
   ngOnInit(): void {
   }
