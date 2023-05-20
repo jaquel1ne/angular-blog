@@ -15,6 +15,10 @@
   height: 300px;
 }
 
+.content__title > hr {
+  border-color: #007fbc;
+}
+
 .content__description {
   margin-top: 15px;
 }
@@ -22,4 +26,16 @@
 .content__description > p {
   margin-top: 20px;
   color: rgb(198, 197, 197);
+}
+
+.content__button {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: auto;
+}
+
+.content__button > button > a {
+  background: #007fbc;
+  font-size: 20px;
 }
